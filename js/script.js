@@ -45,7 +45,7 @@ function calculate() {
       } else {
             month = currentMonth - month;
       }
-      if(isBig == true || year > currentYear){
+      if(isBig == true && year > currentYear){
         alert('Is this possible ?');
         return;
       }
